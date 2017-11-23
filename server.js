@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 app.get('/light', function(req,res){
-    res.send('light data')
+    res.send('light data1')
 })
 
 app.get('/temp', function(req,res){
